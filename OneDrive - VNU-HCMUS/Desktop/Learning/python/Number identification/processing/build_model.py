@@ -7,7 +7,7 @@ import numpy as np
 from input_instance import create_img  # Đảm bảo file này có hàm `create_img()`
 
 def pre_pro(): 
-    path = "../Data/mnist_data.npz"
+    path = "mnist_data.npz"
 
     # Load dữ liệu từ file
     with np.load(path) as data:

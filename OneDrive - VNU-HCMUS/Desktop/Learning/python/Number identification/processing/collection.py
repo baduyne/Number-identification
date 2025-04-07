@@ -42,7 +42,7 @@ def show_images(train,target, size = 10):
 
 def main():
     
-    path = "../Data/mnist_data.npz"
+    path = "mnist_data.npz"
     
     load_and_save_dataset(path)
     x_train, y_train, x_test, y_test = read_dataset(path)

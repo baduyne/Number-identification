@@ -5,3 +5,4 @@ numpy
 opencv-contrib-python
 caer
 seaborn
+opencv-python
